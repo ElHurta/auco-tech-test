@@ -16,8 +16,14 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en'>
-      <body className='flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
-        {children}
+      <body className='m-0 box-border flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
+        <main className='w-full flex-col px-12 items-center'>
+          <header className=' m-8 text-center font-sans'>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl text-white font-bold'>Auco Technical Test Solution</h1>
+            <h2 className='text-1xl sm:text-3x md:text-4xl text-white font-semibold'>Frontend Junior Developer - By Juan Hurtado 🚀</h2>
+          </header>
+          {children}
+        </main>
       </body>
     </html>
   )
