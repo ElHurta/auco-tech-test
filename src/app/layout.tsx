@@ -16,7 +16,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='en'>
-      <body className='h-screen flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
+      <body className='flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
         {children}
       </body>
     </html>

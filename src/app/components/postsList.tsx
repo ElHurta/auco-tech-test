@@ -1,8 +1,28 @@
 import React from 'react'
-import postComponent from './postComponent'
 
-export default function postsList () {
+import { Post } from '../interfaces/post-types'
+import PostComponent from './PostComponent'
+
+const getAllPosts = async () => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+  const posts = await res.json()
+
+  return posts
+}
+
+export default async function postsList () {
+  const posts = await getAllPosts()
+
   return (
-    <div>postsList</div>
+    <section className='my-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg-md-cols-4 gap-4'>
+      {
+        posts.map((post: Post) => (
+          <PostComponent
+            key={post.id}
+            post={post}
+          />
+        ))
+      }
+    </section>
   )
 }
