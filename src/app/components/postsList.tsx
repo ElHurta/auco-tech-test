@@ -14,7 +14,7 @@ export default async function postsList (): Promise<JSX.Element> {
   const posts = await getAllPosts()
 
   return (
-    <section className='my-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg-md-cols-4 gap-2'>
+    <section className='my-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
       {
         posts.map((post: Post) => (
           <PostComponent
