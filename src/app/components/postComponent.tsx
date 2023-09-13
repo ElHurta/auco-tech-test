@@ -18,7 +18,7 @@ export default async function PostComponent ({ post } : { post: Post}) {
   const cuttedBody = body.length > 60 ? body.slice(0, 60) + '...' : body
 
   return (
-    <article className='p-2 bg-gray-200'>
+    <article className='p-2 bg-gray-200 hover:bg-slate-300 transition: background'>
       <header className='h-1/3 my-2'>
         <Link
           className='text-lg font-semibold text-sky-700'
@@ -28,7 +28,7 @@ export default async function PostComponent ({ post } : { post: Post}) {
         </Link>
       </header>
       <main>
-        <p className='text-base text-ellipsis overflow-hidden'>{cuttedBody}</p>
+        <p className='text-ellipsis text-sm overflow-hidden'>{cuttedBody}</p>
         <small>{postAuthor.name}</small>
       </main>
     </article>
