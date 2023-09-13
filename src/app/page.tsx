@@ -1,6 +1,6 @@
 import PostsList from './components/PostsList'
 
-export default function Home () {
+export default function Home (): JSX.Element {
   return (
     <main className='w-full items-center'>
       <main className='p-5 bg-slate-100'>

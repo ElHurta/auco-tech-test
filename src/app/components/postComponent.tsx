@@ -9,7 +9,7 @@ const getPostAuthor = async (id: number): Promise<User> => {
   return author
 }
 
-export default async function PostComponent ({ post } : { post: Post}) {
+export default async function PostComponent ({ post }: { post: Post }): Promise<JSX.Element> {
   const postAuthor = await getPostAuthor(post.userId)
 
   const { title, body } = post

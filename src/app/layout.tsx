@@ -13,7 +13,7 @@ export default function RootLayout ({
   children
 }: {
   children: React.ReactNode
-}) {
+}): JSX.Element {
   return (
     <html lang='en'>
       <body className='m-0 box-border flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
