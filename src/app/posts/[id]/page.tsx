@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function PostPage (): JSX.Element {
+export default function PostPage ({params}): JSX.Element {
+  console.log(params)
+  const { id } = params
+
   return (
-    <div>page</div>
+    <>
+      <h2 className='text-3xl sm:text-4x md:text-4xl font-bold'>Post {id}</h2>
+      
+    </>
   )
 }

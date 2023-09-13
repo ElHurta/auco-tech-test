@@ -22,7 +22,9 @@ export default function RootLayout ({
             <h1 className='text-2xl sm:text-4xl md:text-5xl text-white font-bold'>Auco Technical Test Solution</h1>
             <h2 className='text-1xl sm:text-3x md:text-4xl text-white font-semibold'>Frontend Junior Developer - By Juan Hurtado 🚀</h2>
           </header>
-          {children}
+          <main className='w-full items-center p-5 bg-slate-100'>
+            {children}
+          </main>
         </main>
       </body>
     </html>
