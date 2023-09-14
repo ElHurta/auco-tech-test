@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Post } from '../interfaces/post-types'
-import PostComponent from './PostComponent'
+import PostComponent from './postComponent'
 
 const getAllPosts = async (): Promise<Post[]> => {
   const res = await fetch('https://jsonplaceholder.typicode.com/posts')

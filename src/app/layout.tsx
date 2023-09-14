@@ -17,10 +17,10 @@ export default function RootLayout ({
   return (
     <html lang='en'>
       <body className='h-screen m-0 box-border flex items-center bg-gradient-to-b from-sky-600 to-indigo-600'>
-        <main className='w-full h-full flex-col px-12 items-center'>
-          <header className=' m-8 text-center font-sans'>
-            <h1 className='text-2xl sm:text-4xl md:text-5xl text-white font-bold'>Auco Technical Test Solution</h1>
-            <h2 className='text-1xl sm:text-3x md:text-4xl text-white font-semibold'>Frontend Junior Developer - By Juan Hurtado 🚀</h2>
+        <main className='w-full h-full flex-col px-6 sm:px-10 md:px-12 items-center'>
+          <header className='p-8 h-1/5 text-center font-sans'>
+            <h1 className='text-2xl sm:text-3xl md:text-5xl text-white font-bold'>Auco Technical Test Solution</h1>
+            <h2 className='text-1xl sm:text-3xl md:text-4xl text-white font-semibold'>Frontend Junior Developer - By Juan Hurtado 🚀</h2>
           </header>
           <main className='w-full h-4/5 overflow-auto items-center p-5 bg-slate-100'>
             {children}
