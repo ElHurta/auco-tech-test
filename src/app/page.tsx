@@ -1,4 +1,4 @@
-import PostsList from './components/PostsList'
+import PostsList from "./components/postsList";
 
 export default function Home (): JSX.Element {
   return (

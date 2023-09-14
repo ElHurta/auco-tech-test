@@ -10,7 +10,7 @@ const getAllPosts = async (): Promise<Post[]> => {
   return posts
 }
 
-export default async function postsList (): Promise<JSX.Element> {
+export default async function PostsList (): Promise<JSX.Element> {
   const posts = await getAllPosts()
 
   return (

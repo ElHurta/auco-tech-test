@@ -1,3 +1,4 @@
+
 import CommentComponent from '@/app/components/commentComponent'
 import { Param, Post, Comment } from '@/app/interfaces/post-types'
 import Link from 'next/link'
