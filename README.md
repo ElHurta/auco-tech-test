@@ -14,21 +14,40 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Prueba Técnica - Desarrollo de Aplicación Web con Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Objetivo
 
-## Learn More
+El objetivo de esta prueba técnica es evaluar la capacidad del candidato para trabajar con Next.js, crear componentes reutilizables y manejar datos dinámicos en una aplicación web.
 
-To learn more about Next.js, take a look at the following resources:
+## Descripción
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Desarrolla una pequeña aplicación web en Next.js que muestre una lista de posts. Los posts deben ser recuperados de una API pública como [JSONPlaceholder](https://jsonplaceholder.typicode.com/) o cualquier otra de tu elección. Cada elemento de la lista debe mostrar el título, la descripción y el nombre del escritor del post.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Requisitos Técnicos
 
-## Deploy on Vercel
+1. Utiliza Next.js para crear la aplicación.
+2. Consumir datos de una API externa para obtener la lista de posts.
+3. Crea un componente reutilizable para mostrar cada post.
+4. Agrega una página de detalle del posts que muestre los comentarios cuando se hace clic en un post de la lista.
+5. Implementa rutas en la aplicación para la página de inicio y la página de detalles del post.
+6. Implementa estilos utilizando Tailwind CSS.
+7. Diseño responsive.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Repositorio de la Prueba Técnica
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+El código fuente de la prueba técnica se encuentra disponible en el siguiente repositorio de GitHub:
+
+[Repositorio de la Prueba Técnica](https://github.com/ElHurta/auco-tech-test)
+
+## Autor
+
+- **Nombre:** Juan Hurtado
+- **Cargo:** Desarrollador Frontend Junior
+- **Correo Electrónico:** [juan.david.hurtado08@gmail.com](mailto:juan.david.hurtado08@gmail.com)
+
+## Empresa
+
+El candidato se presenta para la empresa Auco.
+
+¡Gracias por revisar la prueba técnica!
